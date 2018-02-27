@@ -230,7 +230,7 @@ root@kali:~/courses/slae/exam/assignment3#
 
 Wait what?? Why did we not get our shell? This took a little gdb magic to figure out...
 
-![gdb finds wrong instructions]("gdb-assignment3.png")
+![gdb finds wrong instructions](gdb-assignment3.png)
 
 If we look closely, we notice that our instructions in our egg hunter are wrong. Specifically, starting with this line:
 
