@@ -277,7 +277,7 @@ int main() {
 
 ## Wrapping Up
 
-With that, we have succesfully implemented an egg hunter. I hope you learned a lot, as I did, and that you are able to take something away from this that you can use in your own projects. I will again mention that if you did not read the paper noted at the beginning of this post, you should go back and read it. There are some optimizations that can be done to our egg hunter to cut the time to run by 75%! Please leave a comment below if you have any questions, and have a great evening!
+With that, we have successfully implemented an egg hunter. I hope you learned a lot, as I did, and that you are able to take something away from this that you can use in your own projects. I will again mention that if you did not read the paper noted at the beginning of this post, you should go back and read it. There are some optimizations that can be done to our egg hunter to cut the time to run by 75%! Please leave a comment below if you have any questions, and have a great evening!
 
 
 ###### SLAE Exam Statement
